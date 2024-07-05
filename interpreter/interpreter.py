@@ -1,7 +1,7 @@
 expression = input("ar expression")
 
 result = eval(expression)
-final = round(result, 2)
+final = f"{result:.1f}"
 print(final)
 
 
