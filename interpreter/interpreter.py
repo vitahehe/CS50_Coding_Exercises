@@ -1,6 +1,7 @@
 expression = input("ar expression")
 
 result = eval(expression)
-print(round(result, 2))
+final = round(result, 1)
+print(final)
 
 
