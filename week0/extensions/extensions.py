@@ -5,8 +5,8 @@ elif ".gif" in file:
     print("image/gif")
 elif ".jpg" in file:
     print("image/jpg")
-elif ".jepg" in file:
-    print("image/jepg")
+elif ".jpeg" in file:
+    print("image/jpeg")
 elif ".png" in file:
     print(image/png)
 elif ".txt" in file:
