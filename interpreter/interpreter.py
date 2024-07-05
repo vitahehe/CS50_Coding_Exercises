@@ -1,2 +1,2 @@
-expression = float(input("math expressionnn"))
+expression = input("math expressionnn"))
 round(expression,1)
