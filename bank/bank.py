@@ -1,2 +1,4 @@
 greeting = input("Greeting good sir").strip().lower()
-if greeting == 
+response = list(greeting)
+
+print(response.iloc(0)) 
