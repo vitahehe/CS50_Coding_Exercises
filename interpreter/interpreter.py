@@ -1,2 +1,4 @@
-expression = input("math expressionnn"))
-round(expression,1)
+x = input("first number")
+z = input("second number")
+
+
