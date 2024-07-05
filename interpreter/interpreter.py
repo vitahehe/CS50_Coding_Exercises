@@ -1,7 +1,6 @@
-x = float(input("first number"))
-y = input("operation")
-z = float(input("second number"))
+expression = input("ar expression")
 
-
+result = eval(expression)
+print(round(result, 2))
 
 
