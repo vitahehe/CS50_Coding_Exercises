@@ -3,6 +3,6 @@ response = list(greeting)
 if response[0] == "h" and not "hello" :
     print("20$")
 if response == "hello" :
-  print("100$")
+  print("0$")
 else:
-   print("0$")
+   print("100$")
