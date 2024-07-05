@@ -1,2 +1,2 @@
-greeting = input("Greeting good sir").strip().lower()
-if 
+greting = input("Greeting good sir").strip().lower()
+if gr
