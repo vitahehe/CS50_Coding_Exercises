@@ -4,8 +4,7 @@ if ".pdf" in file:
 elif ".gif" in file:
     print("image/gif")
 elif ".jpg" in file:
-    print("image/jpecheck50 cs50/problems/2022/python/extensions
-g")
+    print("image/jpeg")
 elif ".jpeg" in file:
     print("image/jpeg")
 elif ".png" in file:
