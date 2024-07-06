@@ -1,8 +1,9 @@
-time = str(input("what time is it?").lower().strip())
+def main():
 
-def replacesymbol(x ,y , z):
-      return x.replace(y,z)
-stringtime = replacesymbol(time, ":", ".")
+      time = str(input("what time is it?").lower().strip())
 
+                   def replacesymbol(x ,y , z):
+                  return x.replace(y,z)
+convertedtime = float(replacesymbol(time, ":", "."))
+     if convertedtime is in 
 
-print(stringtime)
