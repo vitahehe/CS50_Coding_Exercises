@@ -1,7 +1,8 @@
-time = input("what time is it?").lower().strip()
+time = str(input("what time is it?").lower().strip())
 
 def replacesymbol(x ,y , z):
-      return replacesymbol.replace(y,z)
+      return x.replace(y,z)
 stringtime = replacesymbol(time, ":", ".")
 
 
+print(stringtime)
