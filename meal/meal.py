@@ -1,10 +1,7 @@
-def main():
-   time = input("what time is it?").lower().strip()
+time = input("what time is it?").lower().strip()
 
-   def convert(x):
+def convert(x):
       times = float(x)
       print(times)
-      
-convert(time)
 
-main()
+convert(time)
