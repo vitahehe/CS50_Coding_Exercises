@@ -15,7 +15,7 @@ def main():
        splitrtime1= float(split_time[0])
        splitrtime2= float(split_time[1])
        return splitrtime1 + splitrtime2/60
+    aaaaa = convert(given)
+    print(aaaaa)
 
-
-if __name__ == "__main__":
-    main()
+main()
