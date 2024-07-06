@@ -15,12 +15,15 @@ def main():
        splitrtime1= float(split_time[0])
        splitrtime2= float(split_time[1])
        return splitrtime1 + splitrtime2/60
+
     aaaaa = convert(given)
+    print(aaaaa)
     if 07.00 <= aaaaa <= 08.00:
-       print("breakfast tifime")
+       print("breakfast time")
     elif 12.00 <= aaaaa <= 13.00:
         print("lunch time")
     elif 18.00 <= aaaaa <= 19.00:
         print("dinner time")
 if __name__ == "__main__":
     main()
+
