@@ -12,7 +12,7 @@ lunch2 = 13.00
 dinner1 = 18.00
 dinner2 = 19.00
 
-if breakfast1 <= convertedtime <= beakfast2 :
+if breakfast1 <= convertedtime <= breakfast2 :
         print("breakfast")
 elif lunch1 <= convertedtime <= lunch2 :
         print("lunch")
