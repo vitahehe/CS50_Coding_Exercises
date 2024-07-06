@@ -8,5 +8,5 @@ def main():
     if 12.00 <= converted_time <= 13.00:
         print("lunch time")
     if 18.00 <= converted_time <= 19.00:
-        print("dinner time")7
+        print("dinner time")
 main()
