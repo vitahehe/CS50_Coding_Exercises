@@ -1,21 +1,12 @@
-
-
-time = str(input("what time is it?").lower().strip())
-
-def replacesymbol(x ,y , z):
-    return x.replace(y,z)
-convertedtime = float(replacesymbol(time, ":", "."))
-breakfast1 = 07.00
-breakfast2 = 08.00
-lunch1 = 12.00
-lunch2 = 13.00
-dinner1 = 18.00
-dinner2 = 19.00
-
-if breakfast1 <= convertedtime <= breakfast2 :
-        print("breakfast")
-elif lunch1 <= convertedtime <= lunch2 :
-        print("lunch")
-elif dinner1 <= convertedtime <= dinner2:
-        print("dinner")
-
+def main():
+    time = str(input("whats the time?").strip().lower())
+    def convert(x,y,z):
+        return x.replace(y,z)
+    converted_time = float(convert(time, ":", "."))
+    if 07.00 <= converted_time <= 08.00:
+        print("breakfast time")
+    if 12.00 <= converted_time <= 13.00:
+        print("lunch time")
+    if 18.00 <= converted_time <= 19.00:
+        print("dinner time")7
+main()
