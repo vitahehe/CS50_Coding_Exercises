@@ -3,6 +3,8 @@ def main():
 
    def convert(x):
       times = float(x)
-      return times
+      print(times)
+      
+convert(time)
 
-
+main()
