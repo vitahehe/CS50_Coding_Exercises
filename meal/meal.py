@@ -11,7 +11,6 @@ def main():
     #if 18.00 <= converted_time <= 19.00:
        # print("dinner time")
     def convert(time):
-        return times
 
 if __name__ == "__main__":
     main()
