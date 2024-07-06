@@ -11,7 +11,10 @@ def main():
     #if 18.00 <= converted_time <= 19.00:
        # print("dinner time")
     def convert(time):
-       
+       split_time = time.split(":")
+       splitrtime1= float(split_time[0])
+       splitrtime2= float(split_time[1])
+       return splitrtime1 + splitrtime2/60
 
 
 if __name__ == "__main__":
