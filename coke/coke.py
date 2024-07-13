@@ -7,7 +7,7 @@ def main():
                  owed_amount = owed_amount - payment
                  print("Amount Due: ", owed_amount)
         else:
-              payment = int(input("Input Coin: "))
+             print("Amount Due: ", owed_amount)
 
     print("Change Owed: 0")
 
