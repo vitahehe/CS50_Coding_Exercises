@@ -1,4 +1,5 @@
 camelcase = list(input("whats the name of a variable?"))
 
 for letter in camelcase:
-    if 
+    if letter.isupper:
+        print()
