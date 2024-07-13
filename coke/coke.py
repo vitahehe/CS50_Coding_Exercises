@@ -3,11 +3,11 @@ def main():
 
     while owed_amount != 0:
         payment = int(input("Input Coin: "))
-        if payment == 25 or payment == 5:
+        if payment == 25 or payment == 5 or payment == 10 or payment == 50:
                  owed_amount = owed_amount - payment
                  print("Amount Due: ", owed_amount)
         else:
-              print("enter valid coins")
+              payment = int(input("Input Coin: "))
 
     print("Change Owed: 0")
 
