@@ -1,8 +1,8 @@
 def main():
+         print("Amount Due: 50")
          payment = int(input("Insert Coin: "))
-         while payment != 0:
-                 print("Amount Due: ", 
-
+         print("Amount Due: ", 50 - payment)
+         
 
 
 
