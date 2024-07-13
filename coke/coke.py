@@ -1,5 +1,5 @@
 def main():
-    payment = int(input(Amount Due: ))
+    payments = int(input(Input Coin: ))
 
 
 
