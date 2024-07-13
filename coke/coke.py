@@ -1,14 +1,12 @@
 def main():
-    while payments != 0:
-        payments = int(input("Input Coin: "))
-        print("Amount Due: ", 50 - payments)
-        
-    print("A")
+    payment = int(input("Input Coin: "))
+    while payment != 0:
+        print("Amount Due: ", 50 - payment)
+        payment = int(input("Input Coin: "))
+    print("AA")
 
 
-
-
-
+main()
 
 
 
