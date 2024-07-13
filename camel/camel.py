@@ -5,4 +5,6 @@ for letter in camelcase:
         separator = str(letter)
 camelcases = str(camelcase).split(separator)
 
+print(camelcases[0], "_", camelcases[1])
+
 
