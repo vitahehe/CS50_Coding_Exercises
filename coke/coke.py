@@ -6,7 +6,7 @@ def main():
         payment = int(input("Insert Coin: "))
         if payment in [50, 25, 10, 5]:
             coke = coke - payment
-            payed_amount = payment
+            payment = payed_amount
     print("Change Owed: 0")
 
 main()
