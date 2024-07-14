@@ -3,10 +3,13 @@ print("Amount Due: ", coke)
 payment = int(input("Input Coin: "))
 
 if payment == 50 or payment == 25 or payment == 10 or payment ==5 :
-        print("Amount Due: ", coke - payment)
-        coke  = coke - payment
-        payment = coke - payment
-        payment = int(input("Input Coin: "))
+        while payment != 0:
+              print("Amount Due: ", coke - payment)
+              coke = coke - payment
+              payment = 
+
+
+
 else:
     print("Amount Due: ", coke)
 
