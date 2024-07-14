@@ -7,7 +7,7 @@ def main():
         if payment in [50, 25, 10, 5]:
             coke = coke - payment
             payment = payed_amount
-    if payed_amount == 50:
-            print("Change Owed: 0")
+
+
 main()
 
