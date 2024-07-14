@@ -5,9 +5,9 @@ def main():
         print("Amount Due: ", coke )
         payment = int(input("Insert Coin: "))
         if payment in [50, 25, 10, 5]:
+            coke = coke - payment
             payed_amount = payment
-            print("Amount Due: ", coke - payed_amount)
-        else:
-            print("Amount Due: ", coke)
+    print("Change Owed: 0")
 
+main()
 
