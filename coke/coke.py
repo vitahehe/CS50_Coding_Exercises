@@ -6,8 +6,7 @@ if payment == 50 or payment == 25 or payment == 10 or payment ==5 :
         while payment != 0:
               print("Amount Due: ", coke - payment)
               coke = coke - payment
-              payment = int(input("Input Coin: "))
-        break 
+              payment1 = int(input("Input Coin: "))
 
 
 
