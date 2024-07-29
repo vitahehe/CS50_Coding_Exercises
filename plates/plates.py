@@ -1,7 +1,8 @@
 def main():
 
     plate = input("Plate: ")
-    plate_char = list(plate)
+    plate_char = [char for char in plate]
+    print(plate_char)
     if is_valid(plate):
         print("Valid")
     else:
