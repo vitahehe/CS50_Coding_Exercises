@@ -20,5 +20,6 @@ def main():
                         "sweet cherries" : 100,
                         "tangerine" : 50 ,
                         "watermelon" : 80, }
+    print(len(calories_fruits))
 main()
 
