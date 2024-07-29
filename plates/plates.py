@@ -1,7 +1,6 @@
 def main():
 
     plate = input("Plate: ")
-    plate_char = [char for char in plate]
     print(plate_char)
     if is_valid(plate):
         print("Valid")
@@ -16,8 +15,8 @@ def is_valid(s):
             found_digit = True
         elif found_digit:
             return False
-    return s.isalnum() and len(s)> 0 and s[:2].isalpha()
-    
+    return s.isalnum() and len(s)> 0 and s[:2].isalpha() and 
+
 
 
 
