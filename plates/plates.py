@@ -16,9 +16,10 @@ def is_valid(s):
             return False
     for i, char in enumerate(s):
         if char.isdigit():
-            # Check if the first digit is '0'
             if char == '0':
                 return False
+            else:
+                return True
     return s.isalnum() and len(s)> 0 and s[:2].isalpha() and (2 <= len(list(s)) <= 6)
 
 
