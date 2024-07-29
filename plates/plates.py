@@ -10,8 +10,9 @@ def main():
 
 
 def is_valid(s):
-    if 2 <= plate_char <= 6:
+    if 2 <= s <= 6:
         return "yes"
+    if 
 
 
 
