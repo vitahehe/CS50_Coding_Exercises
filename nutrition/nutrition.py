@@ -25,7 +25,7 @@ def main():
         if item in dictionary:
             print("Calories: ", dictionary[item])
 
-    statement= find(calories_fruits, items)
+    find(calories_fruits, items)
 
 main()
 
