@@ -12,7 +12,9 @@ def main():
 def is_valid(s):
     if 2 <= s <= 6:
         return True
-    if 
+    def is_alphanumeric(s):
+        return s.isalnum()
+    
 
 
 
