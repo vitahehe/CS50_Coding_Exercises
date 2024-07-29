@@ -1,5 +1,5 @@
 def main():
-    item = input("what fruit would you be interested in?").strip().lower()
+    items = input("what fruit would you be interested in?").strip().lower()
     calories_fruits = {"apple" : 130 ,
                        "avocado": 50 ,
                        "banana": 110,
@@ -20,6 +20,7 @@ def main():
                         "sweet cherries" : 100,
                         "tangerine" : 50 ,
                         "watermelon" : 80, }
-    print(len(calories_fruits))
+    for item in items:
+        print
 main()
 
