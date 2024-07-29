@@ -20,7 +20,8 @@ def main():
                         "sweet cherries" : 100,
                         "tangerine" : 50 ,
                         "watermelon" : 80, }
-    for item in items:
-        print
+
+    for fruit in calories_fruits.keys():
+        
 main()
 
