@@ -8,7 +8,8 @@ def main():
 
 
 def is_valid(s):
-    
+    if 2 <= plate_char <= 6:
+        print("met")
 
 
 
