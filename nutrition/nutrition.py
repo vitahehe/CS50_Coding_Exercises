@@ -1,5 +1,6 @@
 def main():
     items = input("what fruit would you be interested in?").strip().lower()
+
     calories_fruits = {"apple" : 130 ,
                        "avocado": 50 ,
                        "banana": 110,
@@ -22,10 +23,9 @@ def main():
                         "watermelon" : 80, }
     def find(dictionary, item):
         if item in dictionary:
-            print("Calories : {dictionary[{item}]}")
-            
+            print("Calories: ", dictionary[item])
+
     statement= find(calories_fruits, items)
-    print(statement)
 
 main()
 
