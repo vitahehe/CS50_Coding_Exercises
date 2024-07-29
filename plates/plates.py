@@ -11,7 +11,7 @@ def main():
 
 def is_valid(s):
     if 2 <= s <= 6:
-        return "yes"
+        return True
     if 
 
 
