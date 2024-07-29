@@ -20,8 +20,9 @@ def main():
                         "sweet cherries" : 100,
                         "tangerine" : 50 ,
                         "watermelon" : 80, }
+    def find(dictionary, item)
+        if item in dictionary:
+            print("Calories : {}")
 
-    for fruit in calories_fruits.keys():
-        
 main()
 
