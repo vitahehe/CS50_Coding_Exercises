@@ -10,13 +10,9 @@ def main():
 def is_valid(s):
     if s.isalnum() and len(s) != 0 and s[:2].isalpha() and (2 <= len(s) <= 6):
         return True
-    found_digit = False
-    for char in s:
-        if char.isdigit():
-            found_digit = True
-        elif char.isalpha() and found_digit:
+    for i in range(len(s) - 1):
+        if s[i].isdigit() and s[i + 1].isalpha():
             return False
-    return True
 
 
 
