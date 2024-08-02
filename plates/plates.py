@@ -15,7 +15,7 @@ def is_valid(s):
             return False
     for char in s:
         if char.isdigit():
-            if char == 0:
+            if char == "0":
                 return False
             break
     return True
