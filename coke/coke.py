@@ -6,6 +6,8 @@ while amount_due > 0 :
          prompt = int(input("Insert Coin: "))
          if prompt in [5, 10, 25]:
             amount_due -= prompt
+            if amount_due < 0:
+                break
          else:
           print("Amount Due: ", amount_due)
 if amount_due < 0:
