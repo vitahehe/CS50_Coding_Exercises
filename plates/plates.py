@@ -13,6 +13,11 @@ def is_valid(s):
     for i in range(len(s) - 1):
         if s[i].isdigit() and s[i + 1].isalpha():
             return False
+    for char in s:
+        if char.isdigit():
+            if char == 0:
+                return False
+            break
     return True
 
 
