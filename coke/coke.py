@@ -8,9 +8,9 @@ while amount_due > 0 :
     else:
           print("Amount Due: ", amount_due)
 if amount_due < 0:
-    print("Change Owed:", -amount_due)
+    print("Change Owed: ", -amount_due)
 elif amount_due == 0:
-    print("No change owed.")
+    print("Charge Owed: 0")
 
 
 
