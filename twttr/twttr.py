@@ -1,5 +1,5 @@
 def shorten(s):
-        vowels ="aeiou"
+        vowels ="aeiouAEIOU"
         result = []
         for char in s:
             if char not in vowels:
@@ -8,7 +8,7 @@ def shorten(s):
 
 
 def main():
-    Input = input("Something:" ).strip().lower()
+    Input = input("Something:" )
     Changed_Input= shorten(Input)
     print(Changed_Input)
 
