@@ -10,7 +10,8 @@ while amount_due > 0 :
           print("Amount Due: ", amount_due)
 while amount_due < 0:
       print("Charge Owed: ", amount_due)
-      
+      break
+
 
 
 
