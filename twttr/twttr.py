@@ -9,4 +9,6 @@ def main():
         for char in s:
             if char not in vowels:
                 result.append(char)
+        return ''.join(result)
 
+main()
