@@ -7,5 +7,6 @@ def main():
         vowels ="aeiou"
         result = []
         for char in s:
-            if char not in vowels
+            if char not in vowels:
+                result.append(char)
 
