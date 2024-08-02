@@ -1,4 +1,6 @@
 amount_due = 50
-for 
-payment = int(input("Amount Due: "))
+print(amount_due)
+prompt = input("Insert Coin: ")
 
+while amount_due != 0 :
+    amount
