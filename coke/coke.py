@@ -7,10 +7,10 @@ while amount_due > 0 :
             amount_due = amount_due  - prompt
     else:
           print("Amount Due: ", amount_due)
-while amount_due < 0:
-      print("Charge Owed: ", - amount_due)
-      break
-
+if amount_due < 0:
+    print("Change Owed:", -amount_due)
+elif amount_due == 0:
+    print("No change owed.")
 
 
 
