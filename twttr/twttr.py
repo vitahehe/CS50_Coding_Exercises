@@ -4,7 +4,6 @@ def main():
     print(Changed_Input)
 
     def shorten(s):
-        for char in s:
-            if char == "a" or char =="e" or char == "i" or char =="o"  or char =="u":
-                remove char
+        vowels ="aeiou"
+        
 
