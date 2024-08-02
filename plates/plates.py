@@ -13,6 +13,7 @@ def is_valid(s):
     for i in range(len(s) - 1):
         if s[i].isdigit() and s[i + 1].isalpha():
             return False
+    return True
 
 
 
