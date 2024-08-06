@@ -19,7 +19,7 @@ date = input("Date: ")
 try:
     elements = date.split("/")
     if len(elements[1]) ==1 or len(elements[0]) ==1:
-        return ("0" + elements[1]) or ("0" + elements[0])
+        elements[1] == "0" + elements[1] or elements[0] =="0" + elements[0]
     print(f"{elements[2]}-{elements[0]}-{elements[1]} ")
 except:
     new_date = date.replace(",", "")
