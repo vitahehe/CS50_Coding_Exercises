@@ -18,7 +18,7 @@ months = [
 date = input("Date: ")
 try:
     elements = date.split("/")
-    print(f"{elements[2]}-{elements[0]}-{elements[1]}")
+    if 
 except:
     new_date = date.replace(",", "")
     elements = new_date.split(" ")
