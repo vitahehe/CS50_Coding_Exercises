@@ -20,4 +20,7 @@ try:
     elements = date.split("/")
     print(f"{elements[2]}-{elements[0]}-{elements[1]}")
 except:
-    nwe_date = date.remove()
+    new_date = date.replace(",", "")
+    elements = new_date.split(" ")
+    if elements[0] in months:
+        print()
