@@ -1,4 +1,4 @@
 date = input("Date: ")
 
 try:
-    date.replace("/","-" )
+    date.replace("/","-" ) and 
