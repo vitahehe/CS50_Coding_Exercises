@@ -33,4 +33,4 @@ except:
              elements[0] ="0" + elements[0]
 
 
-     print(f"{elements[2]}-{months.index(elements[0])}-{elements[1]} ")
+    print(f"{elements[2]}-{months.index(elements[0])}-{elements[1]} ")
