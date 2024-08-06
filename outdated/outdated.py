@@ -20,4 +20,4 @@ try:
     elements = date.split("/")
     print(f"{elements[2]}-{elements[0]}-{elements[1]}")
 except:
-    elements = date.split
+    nwe_date = date.remove()
