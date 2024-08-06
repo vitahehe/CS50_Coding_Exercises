@@ -23,4 +23,4 @@ except:
     new_date = date.replace(",", "")
     elements = new_date.split(" ")
     if elements[0] in months:
-        print()
+        print(f"elements[0].index")
