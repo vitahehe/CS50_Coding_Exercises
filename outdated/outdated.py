@@ -33,8 +33,9 @@ def convert_date(s):
             date[0]= "0" + date[0]
         if len(date[1]) == 1:
             date[1] = "0" + date[1]
-    
+        print(f"{date[2]}-{date[0]}-{date[1]}")
 
+convert_date(x)
 
 
 
