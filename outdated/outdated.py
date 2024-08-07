@@ -19,7 +19,8 @@ def convert_date(s):
     try:
         date = s.replace(",","")
         new_date = date.split(" ")
-        if 
+        if new_date[0] in months and new_date[1] in days_monts:
+            
 
 
 
