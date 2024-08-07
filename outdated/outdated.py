@@ -13,7 +13,7 @@ months = [
     "December"
 ]
 
-days_monts = list(range(1,32))
+days_monts = [str(i) for i in range(1,32)]
 
 def convert_date(s):
     try:
