@@ -27,7 +27,7 @@ while True:
     except:
         new_date = date.replace(",", "")
         elements = new_date.split(" ")
-        if elements[0] in months and :
+        if elements[0] in months:
             if len(elements[1]) ==1:
                 elements[1] = "0" + elements[1]
 
