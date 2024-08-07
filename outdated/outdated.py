@@ -16,7 +16,6 @@ months = [
 days_monts = list(range(1,32))
 
 def convert_date(s):
-    s = input(Date: )
     try:
         date = s.replace(",","")
         new_date = date.split(" ")
@@ -35,7 +34,8 @@ def convert_date(s):
             date[1] = "0" + date[1]
         print(f"{date[2]}-{date[0]}-{date[1]}")
 
-convert_date(x)
+x= convert_date(input("Date: "))
+
 
 
 
