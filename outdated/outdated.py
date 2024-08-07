@@ -29,6 +29,7 @@ def convert_date(s):
 
         else:
             date = s.split("/")
+        
             if len(date[0]) == 1:
                 date[0]= "0" + date[0]
             if len(date[1]) == 1:
