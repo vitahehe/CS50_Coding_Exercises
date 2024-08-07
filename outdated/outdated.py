@@ -16,7 +16,7 @@ months = [
 days_monts = list(range(1,32))
 
 def convert_date(s):
-    datee = input(Date: )
+    s = input(Date: )
     try:
         date = s.replace(",","")
         new_date = date.split(" ")
@@ -24,7 +24,9 @@ def convert_date(s):
             if len(new_date[1]) == 1:
                 new_date[1] = "0" + new_date[1]
         month_index = months.index(new_date[0])+1
-        
+        print(f"{new_date[2]}-{month_index}-{new_date[1]}")
+    except ValueError
+
 
 
 
