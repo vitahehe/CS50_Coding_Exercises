@@ -16,7 +16,10 @@ months = [
 days_monts = list(range(1,32))
 
 def convert_date(s):
-    
+    try:
+        date = s.replace(",","")
+        new_date = date.split(" ")
+        if 
 
 
 
