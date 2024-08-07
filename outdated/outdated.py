@@ -25,7 +25,9 @@ def convert_date(s):
                 new_date[1] = "0" + new_date[1]
         month_index = months.index(new_date[0])+1
         print(f"{new_date[2]}-{month_index}-{new_date[1]}")
-    except ValueError
+    except ValueError:
+        date = s.split("/")
+        if len(date) == 
 
 
 
