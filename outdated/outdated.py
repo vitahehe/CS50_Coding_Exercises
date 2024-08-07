@@ -23,7 +23,8 @@ def convert_date(s):
         if new_date[0] in months and new_date[1] in days_monts:
             if len(new_date[1]) == 1:
                 new_date[1] = "0" + new_date[1]
-        month_index = len(months) + 1
+        month_index = months.index(new_date[0])+1
+        
 
 
 
