@@ -31,7 +31,7 @@ while True:
             if len(elements[1]) ==1:
                 elements[1] = "0" + elements[1]
 
-        print(f"{elements[2]}-{months.index(elements[0])+1}-{elements[1]} ")
+        print(f"{elements[2]}-{months.index(elements[0]) + 1}-{elements[1]} ")
 
 
 
