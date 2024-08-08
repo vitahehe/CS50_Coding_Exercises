@@ -11,6 +11,8 @@ def get_percantage(s):
                 input("Fraction:")
             elif result == 1:
                 print("F")
+            elif result == 0:
+                print("E")
 
             else:
                 print(result,"%")
