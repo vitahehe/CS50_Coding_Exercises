@@ -1,9 +1,8 @@
 
 
-def get_percantage():
+def get_percantage(s):
     while True:
         try:
-            s = input("Fraction: ")
             fraction_list = s.split("/")
             fraction_list = [int(i) for i in fraction_list]
             result = (fraction_list[0] / fraction_list[1]) * 100
@@ -22,6 +21,7 @@ def get_percantage():
 
         except ZeroDivisionError:
             print("a2")
-get_percantage()
+            
+x = get_percantage(input("Fraction: "))
 
 
