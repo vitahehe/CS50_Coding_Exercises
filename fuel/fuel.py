@@ -9,9 +9,9 @@ def get_percantage(s):
             result = (fraction_list[0] / fraction_list[1]) * 100
             if result > 1:
                 input("Fraction:")
-            elif result == 1:
+            if result == 1:
                 print("F")
-            elif result == 0:
+            if result == 0:
                 print("E")
 
             else:
