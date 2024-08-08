@@ -9,17 +9,19 @@ def get_percantage():
             result = (fraction_list[0] / fraction_list[1]) * 100
             if result >= 100:
                 print("F")
+                break
             elif result <= 0:
                 print("E")
+                break
             else:
                 print(f"{result}%")
                 break
 
         except ValueError:
-            input("Fraction:")
+            pass
 
         except ZeroDivisionError:
-            input("Fraction:")
+            pass
 get_percantage()
 
 
