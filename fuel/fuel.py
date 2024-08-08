@@ -14,14 +14,14 @@ def get_percantage():
                 print("E")
                 break
             else:
-                print(f"{result}%")
+                print(result,"%")
                 break
 
         except ValueError:
-            pass
+            print("a")
 
         except ZeroDivisionError:
-            pass
+            print("a2")
 get_percantage()
 
 
