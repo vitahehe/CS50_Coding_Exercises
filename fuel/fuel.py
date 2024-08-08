@@ -7,9 +7,17 @@ def get_percantage(s):
             fraction_list = s.split("/")
             fraction_list = [int(i) for i in fraction_list]
             result = (fraction_list[0] / fraction_list[1]) * 100
-            print(result,"%")
+            if result > 1:
+                input("Fraction:")
+            elif result == 1:
+                print("F")
+
+            else:
+                print(result,"%")
+
         except ValueError:
             input("Fraction:")
+
         except ZeroDivisionError:
             input("Fraction:")
 
