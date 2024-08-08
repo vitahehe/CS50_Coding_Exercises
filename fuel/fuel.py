@@ -10,6 +10,9 @@ def get_percantage(s):
             print(result,"%")
         except ValueError:
             input("Fraction:")
+        except ZeroDivisionError:
+            input("Fraction:")
+
         else:
             break
 
