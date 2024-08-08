@@ -23,8 +23,6 @@ def get_percantage(s):
         except ZeroDivisionError:
             input("Fraction:")
 
-        else:
-            break
 
 main()
 
