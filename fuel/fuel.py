@@ -1,6 +1,7 @@
 def round(number):
     integer = int(number)
     decimal = number - integer
+    
     first_decimal = int(decimal * 10)
 
     if first_decimal >= 5:
