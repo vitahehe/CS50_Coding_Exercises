@@ -16,7 +16,7 @@ while True:
         elif result < 0:
             continue
         else:
-            print(float(result),"%")
+            print(f'{int(result)}%)
             break
     except ZeroDivisionError:
         continue
