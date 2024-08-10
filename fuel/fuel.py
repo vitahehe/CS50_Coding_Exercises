@@ -4,9 +4,9 @@ def round(number):
     first_decimal = int(decimal * 10)
 
     if first_decimal >= 5:
-        return integer_part + 1
+        return integer + 1
     else:
-        return integer_part
+        return integer
 
 
 
