@@ -1,4 +1,5 @@
 while True:
+    
     try:
         x = input("Fraction: ")
         fraction_list = x.split("/")
@@ -21,4 +22,4 @@ while True:
         continue
     except ValueError:
         continue
-            
+
