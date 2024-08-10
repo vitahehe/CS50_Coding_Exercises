@@ -16,12 +16,12 @@ while True:
         elif result < 0:
             continue
         else:
-            print(f'{int(result)}%)
+            print(f'{int(result)}%')
             break
 
     except ZeroDivisionError:
         continue
-                  
+
     except ValueError:
         continue
 
