@@ -1,5 +1,5 @@
 while True:
-    
+
     try:
         x = input("Fraction: ")
         fraction_list = x.split("/")
@@ -16,7 +16,7 @@ while True:
         elif result < 0:
             continue
         else:
-            print(result,"%")
+            print(float(result),"%")
             break
     except ZeroDivisionError:
         continue
