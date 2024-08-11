@@ -9,13 +9,13 @@ menu = {
     "Taco": 3.00,
     "Tortilla Salad": 8.00
 }
-total = None
+total = 0.0
 
 while True:
     try:
         x= input("Item: ").title()
         if x in menu.keys():
-            total = float(total) + menu[x]
+            total = total + menu[x]
             print("$",total)
 
     except KeyboardInterrupt:
