@@ -14,7 +14,7 @@ total =[]
 
 while True:
     try:
-        item = input("Item: ").capitalize()
+        item = input("Item: ").title()
         if item in menu.keys():
             total.append(menu[item])
             print(f'Total: ${sum(total)}')
