@@ -10,4 +10,12 @@ menu = {
     "Tortilla Salad": 8.00
 }
 
+while True:
+    item = input("Item: ").capitalize()
+    if item in menu.keys():
+        total = menu[item]
+    for item in menu.keys():
+        total = total+ menu[item]
+        
+
 
