@@ -9,6 +9,9 @@ def main():
 
 
 def make_grolist(s):
-    s.
+    dictionary ={}
+    capitalized = [i.upper() for str(i) in s]
+    for i in s:
+
 
 
