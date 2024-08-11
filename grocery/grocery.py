@@ -3,9 +3,9 @@ def main():
         try:
             item = input("Item: ")
 
-
         except KeyboardInterrupt:
-            break
+            
+
 
 def make_grolist():
 
