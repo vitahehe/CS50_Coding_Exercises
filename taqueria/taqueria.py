@@ -15,7 +15,7 @@ while True:
     try:
         x= input("Item: ").title()
         if x in menu.keys():
-            total = total + menu[x]
+            total = float(total) + menu[x]
             print("$",total)
 
     except KeyboardInterrupt:
