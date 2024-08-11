@@ -17,7 +17,7 @@ while True:
         item = input("Item: ").capitalize()
         if item in menu.keys():
             total.append(menu[item])
-            print(f'${sum(total)}')
+            print(f'Total: ${sum(total)}')
 
     except KeyboardInterrupt:
         break
