@@ -17,6 +17,8 @@ while True:
         if x in menu.keys():
             total = total + menu[x]
             print("$",total)
+        else:
+            continue
 
     except KeyboardInterrupt:
         break
