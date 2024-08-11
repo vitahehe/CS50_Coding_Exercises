@@ -1,7 +1,7 @@
 def main():
     while True:
         try:
-            input
+            item = input()
 
 
         except KeyboardInterrupt:
