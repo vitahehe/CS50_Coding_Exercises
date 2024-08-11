@@ -10,8 +10,10 @@ def main():
 
 def make_grolist(s):
     dictionary ={}
-    capitalized = [i.upper() for str(i) in s]
-    for i in s:
+    capitalized_list = [i.upper() for str(i) in s]
+    for x in list:
+        if 
+
 
 
 
