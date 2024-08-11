@@ -9,6 +9,6 @@ def main():
 
 
 def make_grolist(s):
-    
+    s.
 
 
