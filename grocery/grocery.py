@@ -3,7 +3,7 @@ def main():
     while True:
         try:
             item = input("Item: ")
-            list.append[item]
+            list.append(item)
         except KeyboardInterrupt:
             make_grolist(list)
 
@@ -11,7 +11,7 @@ def main():
 
 def make_grolist(s):
     dictionary ={}
-    capitalized_list = [i.upper() for )in s]
+    capitalized_list = [i.upper() for i in s]
     for x in capitalized_list:
         if x in dictionary:
             dictionary[x] += 1
