@@ -10,12 +10,18 @@ menu = {
     "Tortilla Salad": 8.00
 }
 
+total =[]
+
 while True:
-    item = input("Item: ").capitalize()
-    if item in menu.keys():
-        total = menu[item]
-    for item in menu.keys():
-        total = total+ menu[item]
-        
+    try:
+        item = input("Item: ").capitalize()
+        if item in menu.keys():
+            total.append(menu[item])
+            print(f'${sum(total)}')
+
+    except KeyboardInterrupt:
+        break
+
+
 
 
