@@ -6,6 +6,7 @@ def main():
             list.append(item)
         except KeyboardInterrupt:
             make_grolist(list)
+            break
 
 
 
@@ -17,7 +18,8 @@ def make_grolist(s):
             dictionary[x] += 1
         else:
             dictionary[x] = 1
-    print(f"{dictionary.keys()} {dictionary.values()}")
+    for keys, values in dictionary.items():
+        print(f"{values} {keys}")
 
 main()
 
