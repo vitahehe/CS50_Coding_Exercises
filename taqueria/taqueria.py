@@ -10,17 +10,16 @@ menu = {
     "Tortilla Salad": 8.00
 }
 
-total =[]
 
 while True:
     try:
-        x= input("Item: ")
+        x= input("Item: ").title()
         if x in menu.keys():
             total = total + menu[x]
             print("$",total)
 
     except KeyboardInterrupt:
-        break 
+        break
 
 
 
