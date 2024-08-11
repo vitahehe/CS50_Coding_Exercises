@@ -14,13 +14,13 @@ total =[]
 
 while True:
     try:
-        item = input("Item: ").title()
-        if item in menu.keys():
-            total.append(menu[item])
-            print(f'Total: ${sum(total)}')
+        x= input("Item: ")
+        if x in menu.keys():
+            total = total + menu[x]
+            print("$",total)
 
     except KeyboardInterrupt:
-        break
+        break 
 
 
 
