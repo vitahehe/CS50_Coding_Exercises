@@ -15,7 +15,7 @@ while True:
                 dictionary[x] = 1
 
         for keys, values in dictionary.items():
-            print(f'\n{values} {keys}')
+            print(f'{values} {keys}')
         break
     except EOFError:
         exit(0)
