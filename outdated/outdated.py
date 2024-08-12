@@ -27,7 +27,14 @@ while True:
                 date_list[1] = '0' + date_list[1]
             print(f'{date_list[2]}-{date_list[0]}-{date_list[1]}')
     except ValueError:
-        date_2 = date.split(' ').replace(',','')
+        date_2 = date.split(' ').remove(',')
+        if date_2[0] in months and date_2[1] in day_monts:
+            if date_2[0] == len(1):
+                date_2[0] = '0' + date_2[0]
+            if date_2[1] == len(1):
+                date_2[1] = '0' + date_2[1]
+        print(f'{date_2[2]-{date_2[0]}')
+
 
 
 
