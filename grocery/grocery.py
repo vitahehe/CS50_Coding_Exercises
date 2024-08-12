@@ -15,7 +15,7 @@ while True:
                 dictionary[x] = 1
 
         for keys, values in dictionary.items():
-            print(f'{values} {keys}')
+            print(f'\n{values} {keys}')
         break
 
 
