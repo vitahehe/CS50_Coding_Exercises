@@ -26,8 +26,8 @@ while True:
             if date_list[1] == len(1):
                 date_list[1] = '0' + date_list[1]
             print(f'{date_list[2]}-{date_list[0]}-{date_list[1]}')
-        else:
-            continue
+    except ValueError:
+        date_2 = date.split(' ').replace
 
 
 
