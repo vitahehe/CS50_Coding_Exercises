@@ -7,7 +7,7 @@ while True:
 
     except KeyboardInterrupt:
         dictionary ={}
-        capitalized_list = [i.upper() for i in ]
+        capitalized_list = [i.upper() for i in list]
         for x in capitalized_list:
             if x in dictionary:
                 dictionary[x] += 1
