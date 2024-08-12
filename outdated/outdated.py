@@ -15,6 +15,7 @@ months = [
 
 days_monts = [str(i) for i in range(1,32)]
 
+date= input('Date: ')
 
 
 
