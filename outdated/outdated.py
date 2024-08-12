@@ -25,9 +25,7 @@ def convert_date(s):
 
 
         month_index = months.index(new_date[0]) + 1
-    month_index_str = f"{month_index:02}"
-
-
+        month_index_str = f"{month_index:02}"
         print(f"{new_date[2]}-{month_index_str}-{new_date[1]}")
     else:
         date = s.split("/")
