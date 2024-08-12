@@ -2,7 +2,7 @@
 list = []
 while True:
     try:
-        item = input("Item: ")
+        item = input(" ")
         list.append(item)
 
     except KeyboardInterrupt:
