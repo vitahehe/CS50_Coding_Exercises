@@ -29,13 +29,13 @@ def convert_date(s):
 
         print(f"{new_date[2]}-{month_index_str}-{new_date[1]}")
 
-        else:
-            date = s.split("/")
-            if len(date[0]) == 1:
-                date[0]= "0" + date[0]
-            if len(date[1]) == 1:
-                date[1] = "0" + date[1]
-            print(f"{date[2]}-{date[0]}-{date[1]}")
+     else:
+        date = s.split("/")
+        if len(date[0]) == 1:
+            date[0]= "0" + date[0]
+        if len(date[1]) == 1:
+            date[1] = "0" + date[1]
+        print(f"{date[2]}-{date[0]}-{date[1]}")
 
 
 convert_date(input("Date: "))
