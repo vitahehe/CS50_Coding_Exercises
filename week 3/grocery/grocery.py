@@ -15,7 +15,8 @@ while True:
                 dictionary[x] = 1
         numbers = list(dictionary.values())
         fruts = list(dictionary.keys())
-        
+        for item1, item2 in zip(numbers, fruts):
+            print(f"{item1:<10} {item2}")
         break
 
     except EOFError:
