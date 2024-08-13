@@ -16,7 +16,7 @@ while True:
         x= input("Item: ").title()
         if x in menu.keys():
             total = total + menu[x]
-            print("$",total)
+            print(f'${total}')
         else:
             continue
 
