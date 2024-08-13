@@ -13,7 +13,9 @@ while True:
                 dictionary[x] += 1
             else:
                 dictionary[x] = 1
-        list1 = dictionaty.keys()]
+        numbers = list(dictionary.values())
+        fruts = list(dictionary.keys())
+        
         break
 
     except EOFError:
