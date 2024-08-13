@@ -19,7 +19,7 @@ while True:
         fruits = list(dictionary.keys())
 
         for item1, item2 in zip(numbers, fruits):
-            print(f"{item1:<10} {item2}")
+            print(f"{item1} {item2}")
         break
 
     except EOFError:
