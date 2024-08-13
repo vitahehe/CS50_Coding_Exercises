@@ -30,15 +30,10 @@ while True:
                 date_list[1] = '0' + date_list[1]
             print(f'{date_list[2]}-{date_list[0]}-{date_list[1]}')
             break
-    
-    except ValueError:
-        date_2 = date.split(' ')
-        date_22=[]
-        for string in date_2:
-            new_string = string.remove(',')
-            date_22.append(new_string)
 
-        if date_22[0] in months and date_22[1] in day_monts:
+    except ValueError:
+        date_2 = date.split(' ').remove(',')
+        if date_2[0] in months and date_2[1] in day_monts:
             if len(dict[date_22[0]]) == 1:
                 date_22[0] = '0' + date_22[0]
             if len(date_22[1]) == 1:
