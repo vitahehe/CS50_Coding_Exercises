@@ -30,6 +30,7 @@ while True:
                 date_list[1] = '0' + date_list[1]
             print(f'{date_list[2]}-{date_list[0]}-{date_list[1]}')
             break
+    
     except ValueError:
         date_2 = date.split(' ')
         date_22=[]
