@@ -13,9 +13,10 @@ total = 0.0
 
 while True:
     try:
-        x= input("Item: ").title()
-        if x in menu.keys():
-            total = total + menu[x]
+        x= input("Item: ")
+        xx = ' '.join(word.capitalize() for word in x.split())
+        if xx in menu.keys():
+            total = total + menu[xx]
             print(f'${total}')
         else:
             continue
