@@ -6,6 +6,7 @@ while True:
         items.append(item)
 
     except KeyboardInterrupt:
+        print("\n")
         dictionary = {}
 
         capitalized_list = [i.upper() for i in items]
