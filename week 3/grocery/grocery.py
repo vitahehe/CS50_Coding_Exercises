@@ -1,5 +1,5 @@
 
-list = []
+list = []cd
 while True:
     try:
         item = input(" ")
