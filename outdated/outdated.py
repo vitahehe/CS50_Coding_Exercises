@@ -35,6 +35,7 @@ while True:
         date_2 = date.replace(',', '')
         date_22 = date_2.split(' ')
         if date_22[0] in months and date_22[1] in day_monts:
+            month_index = months.index(date_22[0])+1
             if len(dict[date_22[0]]) == 1:
                 date_22[0] = '0' + date_22[0]
             if len(date_22[1]) == 1:
