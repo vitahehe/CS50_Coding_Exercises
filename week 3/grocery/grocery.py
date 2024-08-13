@@ -1,5 +1,5 @@
 
-list = []cd
+list = []
 while True:
     try:
         item = input(" ")
@@ -17,6 +17,7 @@ while True:
         for keys, values in dictionary.items():
             print(f'\n{values} {keys}')
         break
+
     except EOFError:
         exit(0)
 
