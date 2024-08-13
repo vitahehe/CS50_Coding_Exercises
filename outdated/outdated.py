@@ -32,7 +32,7 @@ while True:
             break
 
     except ValueError:
-        date_2 = date.split(' ').remove(',')
+        date_2 = date.split(' ').replace(',', '')
         if date_2[0] in months and date_2[1] in day_monts:
             if len(dict[date_22[0]]) == 1:
                 date_22[0] = '0' + date_22[0]
