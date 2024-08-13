@@ -37,8 +37,7 @@ while True:
             date_22.append(new_string)
 
         if date_22[0] in months and date_22[1] in day_monts:
-            if date_22[0] in dict.keys():
-                if 
+            if date_22[0] in dict.keys()
                 date_2[0] = '0' + date_2[0]
             if date_2[1] == len(1):
                 date_2[1] = '0' + date_2[1]
