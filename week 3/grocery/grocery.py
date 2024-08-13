@@ -13,9 +13,7 @@ while True:
                 dictionary[x] += 1
             else:
                 dictionary[x] = 1
-
-        for keys, values in dictionary.items():
-            print(f'{values} {keys}')
+        
         break
 
     except EOFError:
