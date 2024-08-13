@@ -22,6 +22,8 @@ while True:
 
     except KeyboardInterrupt:
         break
+    except EOFError:
+        exit(0)
 
 
 
