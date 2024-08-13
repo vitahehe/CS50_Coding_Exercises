@@ -23,7 +23,7 @@ while True:
     date = input('Date: ')
     try:
         date_list = date.split('/')
-        if len(date_list) == 3 and date_list[1] in days_monts and date_list[0] in dict.keys():
+        if len(date_list) == 3 and date_list[1] in days_monts and date_list[0] in dict.keys() and date_list[0].isdigit():
             if len(str(date_list[0])) == 1:
                 date_list[0] = '0' + date_list[0]
             if len(str(date_list[1])) == 1:
