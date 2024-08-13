@@ -46,8 +46,8 @@ while True:
                 date_2[1] = '0' + date_2[1]
             print(f'{date_2[2]}-{date_2[0]}')
             break
-        else:
-            continue
+    else:
+        continue
 
 
 
