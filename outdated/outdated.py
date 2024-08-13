@@ -24,9 +24,9 @@ while True:
     try:
         date_list = date.split('/')
         if date_list[1] in days_monts and date_list[0] in dict.keys():
-            if date_list[0] == len(1):
+            if str(date_list[0]) == len(1):
                 date_list[0] = '0' + date_list[0]
-            if date_list[1] == len(1):
+            if str(date_list[1]) == len(1):
                 date_list[1] = '0' + date_list[1]
             print(f'{date_list[2]}-{date_list[0]}-{date_list[1]}')
             break
