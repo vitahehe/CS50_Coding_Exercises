@@ -36,8 +36,9 @@ while True:
             new_string = string.remove(',')
             date_22.append(new_string)
 
-        if date_2[0] in months and date_2[1] in day_monts:
-            if date_2[0] == len(1):
+        if date_22[0] in months and date_22[1] in day_monts:
+            if date_22[0] in dict.keys():
+                if 
                 date_2[0] = '0' + date_2[0]
             if date_2[1] == len(1):
                 date_2[1] = '0' + date_2[1]
