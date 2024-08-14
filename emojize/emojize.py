@@ -1,2 +1,4 @@
 import emoji
-input = 
+
+imput = input('Input: ')
+emojie = emoji.emojize(imput)
