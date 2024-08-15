@@ -6,8 +6,7 @@ while True:
         names.append(name)
 
     except KeyboardInterrupt:
-        for x in names:
-            
+        
     except EOFError:
         exit(o)
 
