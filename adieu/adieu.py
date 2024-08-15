@@ -2,7 +2,7 @@
 
 while True:
     try:
-        name = input('Name; ')
+        name = input('Name: ')
     except KeyboardInterrupt:
     except EOFError:
         exit(o)
