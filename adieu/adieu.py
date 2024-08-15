@@ -1,4 +1,6 @@
-import sys
+impport sys
+import inflect
+
 names = []
 while True:
     try:
