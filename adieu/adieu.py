@@ -9,8 +9,9 @@ while True:
     except KeyboardInterrupt:
         for i in range(1,(len(names)*2) -1 , 2):
             names.insert(i, ',')
+        for i in range(len(names[:-1])):
+            
         names[-2] = 'and'
-        result = ' '.join(names)
         print(f'Adieu, Adieu, to {result}')
         sys.exit()
 
