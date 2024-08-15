@@ -7,8 +7,7 @@ while True:
     except KeyboardInterrupt:
         print(names[:-2])
         for x in names[:-2]:
-            
-            print(f'Adieu, Adieu, to {x}')
+            print(f'Adieu, Adieu, to {x + ','}')
 
     except EOFError:
         exit(0)
