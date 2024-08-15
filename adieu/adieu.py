@@ -8,5 +8,5 @@ while True:
     except KeyboardInterrupt:
         
     except EOFError:
-        exit(o)
+        exit(0)
 
