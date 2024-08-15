@@ -10,8 +10,8 @@ while True:
         for i in range(1,(len(names)*2) -1 , 2):
             names.insert(i, ',')
         names[-2] = 'and'
-        for item in names:
-            print(item)
+        result = ' '.join(names)
+        print(f'Adieu, Adieu, to {result}')
         sys.exit()
 
 
