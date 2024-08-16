@@ -1,5 +1,5 @@
 import sys
-
+#doesnt work yet
 names = []
 while True:
     try:
