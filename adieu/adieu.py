@@ -14,8 +14,7 @@ while True:
             final_names = names[0]
         else:
             final_names = ', '.join(names[:-1]) + ', and ' + names[-1]
-        print(f'Adieu, Adieu, to {final_names}')
-        sys.exit()
+        sys.exit(f'Adieu, Adieu, to {final_names}')
 
 
     except EOFError:
