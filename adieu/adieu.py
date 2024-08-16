@@ -8,6 +8,7 @@ while True:
     except KeyboardInterrupt:
         if len(names) == 0:
             sys.exit()
+        e
         elif len(names) ==1:
             final_names = names[0]
         else:
