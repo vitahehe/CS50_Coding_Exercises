@@ -8,14 +8,11 @@ while True:
     except KeyboardInterrupt:
         if len(names) == 0:
             sys.exit()
-        new_names=[]
-        for i in names[:-1]:
-            new_element = i + ','
-            new_names.append(new_element)
-            
-        new_names[-1] = names[-1]
-        new_names[-2] = 'and'
-        print(' '.join(new_names))
+        if len(names) ==1:
+            final_names = names[0]
+        else:
+            final_names = ','.join(names[:-1]) + ', and ' + names[-1]
+        print(f'Adieu, Adieu, to {final_names}')
         sys.exit()
 
 
