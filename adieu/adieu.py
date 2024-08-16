@@ -12,6 +12,7 @@ while True:
         for i in names[:-1]:
             new_element = i + ','
             new_names.append(new_element)
+            
         new_names[-1] = names[-1]
         new_names[-2] = 'and'
         print(' '.join(new_names))
