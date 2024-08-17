@@ -1,10 +1,18 @@
 import random
 import sys
 
-intiger = int(input('Level: '))
-while intiger <= 0:
-    intiger = int(input('Level: '))
-random_intiger = random.randrange(1, intiger)
+while True:
+
+    try:
+
+        intiger = int(input('Level: '))
+        while intiger <= 0:
+            intiger = int(input('Level: '))
+        random_intiger = random.randrange(1, intiger)
+        break
+    except ValueError:
+        continue
+
 
 while True:
     try:
