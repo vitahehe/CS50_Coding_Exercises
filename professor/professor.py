@@ -6,10 +6,12 @@ def main():
 
 
 def get_level():
-    while level < 0 or level > 3 :
+    while True:
         level = int(input('Level: '))
-
-
+        if level == 1 or level ==2 or level ==3:
+            break
+        else:
+            continue
 
 
 
