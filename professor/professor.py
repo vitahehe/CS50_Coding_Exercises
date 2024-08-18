@@ -5,8 +5,9 @@ def main():
     level_l = get_level()
     solutions = []
     for question in range(10):
-        question = generate_integer(level_l) + generate_integer(level_l)
-        solutions.append(question)
+        question = str(generate_integer(level_l)) + ' + ' +  str(generate_integer(level_l))
+        answer = generate_integer(level_l) + generate_integer(level_l)
+        solutions.append(answer)
         print(input(f'{question} = '))
 
 
