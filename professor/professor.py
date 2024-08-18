@@ -3,15 +3,13 @@ import random
 
 def main():
     level_l = get_level()
-    solutions = []
     for question in range(10):
         question = str(generate_integer(level_l)) + ' + ' +  str(generate_integer(level_l))
         answer = generate_integer(level_l) + generate_integer(level_l)
-        solutions.append(answer)
         for i in range(3):
             user_q= int(input(f'{question} = '))
             if user_q == answer:
-                break
+                print('correct')
             if i == 2:
                 print(answer)
             else:
