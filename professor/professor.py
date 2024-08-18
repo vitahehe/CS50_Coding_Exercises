@@ -24,6 +24,9 @@ def main():
                 elif user_q != answer:
                      print('EEE')
             except ValueError:
+                if i == 2:
+                     total.append(0)
+                     print(answer)
                 print('EEE')
     print(f'Score: {sum(total)}')
 
