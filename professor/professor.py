@@ -27,7 +27,8 @@ def main():
                 if i == 2:
                      total.append(0)
                      print(answer)
-                print('EEE')
+                else:
+                     print('EEE')
     print(f'Score: {sum(total)}')
 
 
