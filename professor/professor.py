@@ -8,7 +8,10 @@ def main():
         question = str(generate_integer(level_l)) + ' + ' +  str(generate_integer(level_l))
         answer = generate_integer(level_l) + generate_integer(level_l)
         solutions.append(answer)
-        print(input(f'{question} = '))
+        x= input(f'{question} = ')
+        print(x)
+        if x ==
+
 
 
 
