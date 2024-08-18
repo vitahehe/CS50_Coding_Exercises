@@ -16,10 +16,11 @@ def main():
                 print(total)
                 break
             if i == 2:
+                total.append(0)
                 print(answer)
             elif user_q != answer:
                 print('EEE')
-
+    print(f'{sum(total)}')
 
 
 
