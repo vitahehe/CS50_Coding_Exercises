@@ -8,9 +8,9 @@ def main():
         question = str(generate_integer(level_l)) + ' + ' +  str(generate_integer(level_l))
         answer = generate_integer(level_l) + generate_integer(level_l)
         solutions.append(answer)
-        x= input(f'{question} = ')
-        print(x)
-        if x ==
+        user_q= int(input(f'{question} = '))
+        print(user_q)
+        if user_q == solutions[]
 
 
 
