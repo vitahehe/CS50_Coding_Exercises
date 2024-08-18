@@ -14,6 +14,8 @@ def main():
                 break
             else:
                 print('EEE')
+            if i == 2:
+                print(answer)
 
 
 
