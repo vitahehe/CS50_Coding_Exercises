@@ -2,6 +2,8 @@ import random
 
 
 def main():
+    get_level()
+    
 
 
 
@@ -22,6 +24,8 @@ def generate_integer(level):
     min_n = 10**(level -1)
     max_n = 10**level - 1
     r_int = random.randint(min_n , max_n)
+    return r_int
+
 
 
 
