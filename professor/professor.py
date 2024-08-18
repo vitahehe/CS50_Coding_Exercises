@@ -9,7 +9,6 @@ def main():
         answer = generate_integer(level_l) + generate_integer(level_l)
         solutions.append(answer)
         user_q= int(input(f'{question} = '))
-        print(user_q)
         for i in range(3):
             if user_q == answer:
                 break
