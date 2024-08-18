@@ -3,6 +3,7 @@ import random
 
 def main():
     level_l = get_level()
+    total = []
     for question in range(10):
         x =generate_integer(level_l)
         y = generate_integer(level_l)
@@ -11,6 +12,8 @@ def main():
         for i in range(3):
             user_q= int(input(f'{question} = '))
             if user_q == answer:
+                total.append(1)
+                print(total)
                 break
             if i == 2:
                 print(answer)
