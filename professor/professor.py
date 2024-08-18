@@ -12,11 +12,10 @@ def main():
             user_q= int(input(f'{question} = '))
             if user_q == answer:
                 break
-            else:
-                print('EEE')
             if i == 2:
                 print(answer)
-
+            else:
+                print('EEE')
 
 
 
