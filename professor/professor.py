@@ -17,7 +17,9 @@ def get_level():
 
 
 def generate_integer(level):
-    random.randint(0)
+    if not 0 <level< 4:
+        raise ValueError
+    random.randint(
 
 
 
