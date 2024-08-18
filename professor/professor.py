@@ -16,7 +16,6 @@ def main():
 
                 if user_q == answer:
                      total.append(1)
-                     print(total)
                      break
                 if i == 2:
                      total.append(0)
