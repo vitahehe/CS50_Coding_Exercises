@@ -3,21 +3,15 @@ import random
 
 def main():
     get_level()
-    for i in range(10):
-        i = input(f'{generate_integer(level)} + {generate_integer(level)} =')
-        print(i)
-
-
 
 
 def get_level():
     while True:
         level = int(input('Level: '))
         if level == 1 or level ==2 or level ==3:
-            break
+            return level
         else:
             continue
-    return level
 
 
 
