@@ -3,7 +3,12 @@ import random
 
 def main():
     level_l = get_level()
-    question = generate_integer(level_l) + generate_integer(level_l)
+    solutions = []
+    for question in range(10):
+        question = generate_integer(level_l) + generate_integer(level_l)
+        solutions.append(question)
+        print(input(f'{question} = '))
+
 
 
 def get_level():
