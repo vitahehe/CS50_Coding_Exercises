@@ -11,7 +11,6 @@ def main():
         for i in range(3):
             user_q= int(input(f'{question} = '))
             if user_q == answer:
-                print('correct')
                 break
             if i == 2:
                 print(answer)
