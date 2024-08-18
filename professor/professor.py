@@ -4,7 +4,8 @@ import random
 def main():
     get_level()
     for i in range(10):
-        math_problem
+        i = input(f'{generate_integer(level)} + {generate_integer(level)} =')
+        print(i)
 
 
 
