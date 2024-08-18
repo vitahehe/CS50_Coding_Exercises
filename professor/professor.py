@@ -9,18 +9,23 @@ def main():
         y = generate_integer(level_l)
         question = str(x) + ' + ' +  str(y)
         answer = x + y
+
         for i in range(3):
-            user_q= int(input(f'{question} = '))
-            if user_q == answer:
-                total.append(1)
-                print(total)
-                break
-            if i == 2:
-                total.append(0)
-                print(answer)
-            elif user_q != answer:
+            try:
+                user_q= int(input(f'{question} = '))
+
+                if user_q == answer:
+                     total.append(1)
+                     print(total)
+                     break
+                if i == 2:
+                     total.append(0)
+                     print(answer)
+                elif user_q != answer:
+                     print('EEE')
+            except ValueError:
                 print('EEE')
-    print(f'{sum(total)}')
+    print(f'Score: {sum(total)}')
 
 
 
