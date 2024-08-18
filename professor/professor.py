@@ -4,8 +4,10 @@ import random
 def main():
     level_l = get_level()
     for question in range(10):
-        question = str(generate_integer(level_l)) + ' + ' +  str(generate_integer(level_l))
-        answer = generate_integer(level_l) + generate_integer(level_l)
+        x =generate_integer(level_l)
+        y = generate_integer(level_l)
+        question = str(x) + ' + ' +  str(y)
+        answer = x + y
         for i in range(3):
             user_q= int(input(f'{question} = '))
             if user_q == answer:
