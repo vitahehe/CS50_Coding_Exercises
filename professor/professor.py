@@ -2,7 +2,7 @@ import random
 
 
 def main():
-    get_level()
+    level_l = get_level()
 
 
 def get_level():
