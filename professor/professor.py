@@ -3,6 +3,9 @@ import random
 
 def main():
     level_l = get_level()
+    for i in range(10):
+        i = input(f'{generate_integer(level_l)} + {generate_integer(level_l)} = ')
+        print(i)
 
 
 def get_level():
