@@ -10,7 +10,13 @@ def main():
         solutions.append(answer)
         user_q= int(input(f'{question} = '))
         print(user_q)
-        while user_q != answer
+        for i in range(3):
+            if user_q == answer:
+                break
+            else:
+                print('EEE')
+                user_q= int(input(f'{question} = '))
+
 
 
 
