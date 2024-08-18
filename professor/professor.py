@@ -3,7 +3,8 @@ import random
 
 def main():
     get_level()
-    math_problem = input(f'{generate_intiger(level)} + {generate_intiger(level)}')
+    for i in range(10):
+        math_problem
 
 
 
