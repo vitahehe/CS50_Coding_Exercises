@@ -19,7 +19,9 @@ def get_level():
 def generate_integer(level):
     if not 0 <level< 4:
         raise ValueError
-    random.randint(
+    min_n = 10**(level -1)
+    max_n = 10**level - 1
+    r_int = random.randint(min_n , max_n)
 
 
 
