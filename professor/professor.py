@@ -8,13 +8,12 @@ def main():
         question = str(generate_integer(level_l)) + ' + ' +  str(generate_integer(level_l))
         answer = generate_integer(level_l) + generate_integer(level_l)
         solutions.append(answer)
-        user_q= int(input(f'{question} = '))
         for i in range(3):
+            user_q= int(input(f'{question} = '))
             if user_q == answer:
                 break
             else:
                 print('EEE')
-                user_q= int(input(f'{question} = '))
 
 
 
