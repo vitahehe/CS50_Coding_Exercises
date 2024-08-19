@@ -37,7 +37,6 @@ def get_level():
         level = int(input('Level: '))
         if level == 1 or level ==2 or level ==3:
              return level
-        elif 
         else:
             continue
 
