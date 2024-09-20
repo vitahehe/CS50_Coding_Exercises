@@ -15,5 +15,7 @@ try:
     bit_gbp = data['bpi']['GBP']['rate']
     bit_eur = data['bpi']['EUR']['rate']
 
+except requests.RequestException:
+
 
 
