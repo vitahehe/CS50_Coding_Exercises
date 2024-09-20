@@ -11,11 +11,9 @@ try:
     response = requests.get(url)
     response.raise_for_status()
     data = response.json()
-
-    # Extract Bitcoin price in USD, GBP, and EUR
-    bitcoin_usd = data['bpi']['USD']['rate']
-    bitcoin_gbp = data['bpi']['GBP']['rate']
-    bitcoin_eur = data['bpi']['EUR']['rate']
+    bit_usd = data['bpi']['USD']['rate']
+    bit_gbp = data['bpi']['GBP']['rate']
+    bit_eur = data['bpi']['EUR']['rate']
 
 
 
