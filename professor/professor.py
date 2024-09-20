@@ -38,10 +38,11 @@ def get_level():
              level = int(input('Level: '))
              if level == 1 or level ==2 or level ==3:
                  return level
+                 break
              else:
                  continue
     except ValueError:
-        raise try 
+        continue`
 
 
 def generate_integer(level):
