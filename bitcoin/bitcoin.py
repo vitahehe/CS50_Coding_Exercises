@@ -13,7 +13,8 @@ try:
     response.raise_for_status()
     data = response.json()
     bit_usd = data['bpi']['USD']['rate']
-    print(f'${bit_usd:.4d}')
+    float_bit_usd = float(bit_usd.replace(',', ''))
+    print(f'${float_bit_usd:,.4f}')
 
 except requests.RequestException as e:
     print(f'An error {e} has occured')
