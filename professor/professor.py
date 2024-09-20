@@ -43,7 +43,7 @@ def get_level():
                  else:
                      continue
              except ValueError:
-                continue`
+                pass
 
 
 def generate_integer(level):
