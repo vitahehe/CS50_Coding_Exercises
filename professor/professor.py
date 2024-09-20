@@ -33,16 +33,17 @@ def main():
 
 
 def get_level():
-    try:
+
          while True:
-             level = int(input('Level: '))
-             if level == 1 or level ==2 or level ==3:
-                 return level
-                 break
-             else:
-                 continue
-    except ValueError:
-        continue`
+             try:
+
+                 level = int(input('Level: '))
+                 if level == 1 or level ==2 or level ==3:
+                     return level
+                 else:
+                     continue
+             except ValueError:
+                continue`
 
 
 def generate_integer(level):
