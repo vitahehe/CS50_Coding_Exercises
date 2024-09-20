@@ -12,10 +12,11 @@ try:
     response.raise_for_status()
     data = response.json()
     bit_usd = data['bpi']['USD']['rate']
-    bit_gbp = data['bpi']['GBP']['rate']
-    bit_eur = data['bpi']['EUR']['rate']
+    print(f'$')
 
-except requests.RequestException:
+except requests.RequestException as e:
+    priny(f'An error {e} has occured')
+
 
 
 
