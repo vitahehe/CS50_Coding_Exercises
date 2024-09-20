@@ -7,4 +7,4 @@ try:
 except ValueError:
     sys.exit('Command-line argument is not a number')
 
-print(f'{bitcoin}')
+print(f'{bit}')
