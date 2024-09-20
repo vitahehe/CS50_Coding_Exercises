@@ -1,5 +1,6 @@
 import sys
-import 
+import requests
+
 try:
     if len(sys.argv) == 1:
         sys.exit('Missing command-line argument ')
@@ -7,4 +8,3 @@ try:
 except ValueError:
     sys.exit('Command-line argument is not a number')
 
-print(f'{bit}')
