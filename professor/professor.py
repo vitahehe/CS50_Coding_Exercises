@@ -40,8 +40,8 @@ def get_level():
                  return level
              else:
                  continue
-        except ValueError:
-        continue
+    except ValueError:
+        raise try 
 
 
 def generate_integer(level):
