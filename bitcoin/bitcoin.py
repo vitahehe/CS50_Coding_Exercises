@@ -2,8 +2,9 @@ import sys
 import requests
 try:
     try:
+
         if len(sys.argv) == 1:
-        sys.exit('Missing command-line argument ')
+            sys.exit('Missing command-line argument ')
     bit= float(sys.argv[1])
     except ValueError:
         sys.exit('Command-line argument is not a number')
@@ -12,7 +13,7 @@ try:
     response.raise_for_status()
     data = response.json()
     bit_usd = data['bpi']['USD']['rate']
-    print(f'$')
+    print(f'${bit_usd}')
 
 except requests.RequestException as e:
     priny(f'An error {e} has occured')
