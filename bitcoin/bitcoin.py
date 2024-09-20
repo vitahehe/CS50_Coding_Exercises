@@ -2,13 +2,13 @@ import sys
 import requests
 try:
     try:
-
         if len(sys.argv) == 1:
             sys.exit('Missing command-line argument ')
-    bit= float(sys.argv[1])
+        bit= float(sys.argv[1])
     except ValueError:
         sys.exit('Command-line argument is not a number')
-    url = 'https://api.coindesk.com/v1/bpi/currentprice.json'
+
+    url = f'https://api.coindesk.com/v1/bpi/currentprice.json'
     response = requests.get(url)
     response.raise_for_status()
     data = response.json()
@@ -16,7 +16,7 @@ try:
     print(f'${bit_usd}')
 
 except requests.RequestException as e:
-    priny(f'An error {e} has occured')
+    print(f'An error {e} has occured')
 
 
 
