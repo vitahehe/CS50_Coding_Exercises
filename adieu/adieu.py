@@ -8,7 +8,7 @@ while True:
     except KeyboardInterrupt:
         if len(names) == 0:
             sys.exit()
-        elif len(names) == 2:
+        elif len(names)==2:
             final_names = names[0] + ' and ' + names[1]
         elif len(names) ==1:
             final_names = names[0]
