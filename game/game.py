@@ -21,7 +21,7 @@ while True:
         if gess > random_intiger:
             print('Too large!')
             continue
-        elif gess < random_intiger:
+        elif 0 < gess < random_intiger:
             print('Too small!')
             continue
         elif gess == random_intiger:
