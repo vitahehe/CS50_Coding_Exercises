@@ -10,8 +10,6 @@ try:
     url = 'https://api.coindesk.com/v1/bpi/currentprice.json'
     response = requests.get(url)
     response.raise_for_status()
-
-    # Parse the JSON data
     data = response.json()
 
     # Extract Bitcoin price in USD, GBP, and EUR
