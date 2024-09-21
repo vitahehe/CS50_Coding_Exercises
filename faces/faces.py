@@ -1,7 +1,11 @@
 def main():
     inp= input()
-    inpu= inp.convert()
+    inpu= convert(inp)
+    print(inpu)
 
 
-def convert():
-    
+def convert(a):
+    aaa= a.replace(':)' or ':(', '🙂' or '🙁')
+    return aaa
+
+main()
