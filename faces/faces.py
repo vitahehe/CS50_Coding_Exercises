@@ -5,7 +5,10 @@ def main():
 
 
 def convert(a):
-    aaa= a.replace(':)' or ':(', '🙂' or '🙁')
-    return aaa
+    try:
+        aaa= a.replace(':)', '🙂')
+    except ':(' in a:
+        aaa=a.replace(':(', '🙁')
+
 
 main()
