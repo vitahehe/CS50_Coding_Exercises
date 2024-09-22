@@ -6,12 +6,12 @@ def main():
 
 def convert(a):
     if ':(' in a:
-        aaa= a.replace(':(','🙁')
+        a= a.replace(':(','🙁')
     if ':)' in a:
-        aaa= a.replace(':)', '🙂')
+        a= a.replace(':)', '🙂')
     else:
-        aaa =a
-    return aaa
+        a =a
+    return a
 
 
 main()
