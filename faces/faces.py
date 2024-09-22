@@ -7,7 +7,7 @@ def main():
 def convert(a):
     if ':(' in a:
         aaa= a.replace(':(','🙁')
-    if ':)' in a:
+    elif ':)' in a:
         aaa= a.replace(':)', '🙂')
     else:
         aaa =a
