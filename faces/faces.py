@@ -9,6 +9,8 @@ def convert(a):
         aaa= a.replace(':(','🙁')
     elif ':)' in a:
         aaa= a.replace(':)', '🙂')
+    elif ':(' and ':)' in a:
+        aaa = a.replace(':)', '🙂').replace(':(','🙁')
     else:
         aaa =a
     return aaa
