@@ -10,3 +10,6 @@ def test_third():
     assert value('bonjours') == 100
     assert value('BONJOURS') == 100
 
+def test_uppercase():
+    assert value('HELLO') == 0
+    assert value('HEY') ==20
