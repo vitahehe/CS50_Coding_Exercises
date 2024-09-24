@@ -1,9 +1,9 @@
 def main():
     juging = value(input("Greeting good sir").strip().lower())
-    pri
+    print(juging)
 
 def value(greeting):
-     if 'hello' in greeting:
+     if 'hello' == greeting[:4]:
          x=0
      elif 'h'== greeting[0]:
          x=20
