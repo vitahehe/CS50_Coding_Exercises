@@ -1,5 +1,4 @@
-from week2.twttr import shorten
-
+from twttr.twttr import shorten
 def test_aeiou_remove():
     assert hello == hll
     assert lole==ll
