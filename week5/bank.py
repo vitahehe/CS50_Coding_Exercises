@@ -1,16 +1,10 @@
 def main():
-    ...
-
+    juging = value(input("Greeting good sir").strip().lower())
 
 def value(greeting):
-     greeting = input("Greeting good sir").strip().lower()
-response = list(greeting)
-if response[0] == "h" and "hello" not in greeting:
-       print("$20")
-elif "hello" in greeting:
-    print("$0")
-else:
-    print("$100")
+     if 'hello' in greeting:
+         x=0
+     elif 'h'==
 
 
 
