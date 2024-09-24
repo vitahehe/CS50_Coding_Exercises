@@ -1,4 +1,5 @@
 def shorten(s):
+    
         vowels ="aeiouAEIOU"
         result = []
         for char in s:
