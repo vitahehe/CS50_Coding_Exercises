@@ -4,6 +4,7 @@ def main():
     print(Changed_Input)
 
 def shorten(s):
+    
     vowels ="aeiouAEIOU"
     result = []
     for char in s:
