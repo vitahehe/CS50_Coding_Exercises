@@ -1,4 +1,4 @@
-from twttr import shorten
+from week5.twttr.twttr import shorten
 
 
 def test_aeiou_remove():
