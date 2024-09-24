@@ -8,5 +8,6 @@ def test_AEIOU_remove():
     assert shorten('HELLO') == 'HLL'
     assert shorten('POLEO') =='PL'
 def test_numbers():
-    if exit(0):
-        assert exit(1)
+    assert shorten(hello1) == 'hll1'
+def test_punct():
+    assert shorten(hello!!!)='hll!!!'
