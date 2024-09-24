@@ -3,7 +3,7 @@ def main():
     print(juging)
 
 def value(greeting):
-     if 'hello' == greeting[:4]:
+     if 'hello' == greeting[:5]:
          x=0
      elif 'h'== greeting[0]:
          x=20
