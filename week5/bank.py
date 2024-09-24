@@ -1,8 +1,9 @@
 def main():
-    juging = value(input("Greeting good sir").strip().lower())
+    juging = value(input("Greeting good sir"))
     print(int(juging))
 
-def value(greeting):
+def value(s):
+     greeting=s.strip().lower()
      if 'hello' == greeting[:5]:
          x=0
      elif 'h'== greeting[0]:
