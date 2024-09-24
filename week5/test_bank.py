@@ -6,9 +6,9 @@ def test_first():
 
 def test_second():
     assert value('hey')== 20
-    assert value('HEY')==20
+    assert value('HEY')== 20
 
 def test_third():
-    assert value('bonjours') ==100
-    assert value('BONJOURS')==100
+    assert value('bonjours') == 100
+    assert value('BONJOURS') == 100
 

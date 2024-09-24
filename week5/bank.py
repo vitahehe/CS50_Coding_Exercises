@@ -1,6 +1,6 @@
 def main():
     juging = value(input("Greeting good sir").strip().lower())
-    print(juging)
+    print(int(juging))
 
 def value(greeting):
      if 'hello' == greeting[:5]:
