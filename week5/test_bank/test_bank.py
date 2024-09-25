@@ -1,4 +1,4 @@
-from bank import value
+from week5.test_bank.bank import value
 
 def test_first():
     assert value('hello')== 0
